@@ -2,14 +2,22 @@
    FIREBASE CONFIG — paste the values from your NEW Firebase project
    (Firebase Console → Project Settings → Your apps → Web app)
    ═══════════════════════════════════════════════════════════════ */
-const FIREBASE_CONFIG = {
-  apiKey: "",
-  authDomain: "",
-  projectId: "",
-  storageBucket: "",
-  messagingSenderId: "",
-  appId: ""
-};
+  const firebaseConfig = {
+
+    apiKey: "AIzaSyCizPdkeuUd91d9OTFSfWOtxC8a22V_Ssw",
+
+    authDomain: "portal-fitness-d6f60.firebaseapp.com",
+
+    projectId: "portal-fitness-d6f60",
+
+    storageBucket: "portal-fitness-d6f60.firebasestorage.app",
+
+    messagingSenderId: "247954930421",
+
+    appId: "1:247954930421:web:32194024b765734290a3bc"
+
+  };
+
 /* ═══════════════════════════════════════════════════════════════ */
 
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
